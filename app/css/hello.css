@@ -1,0 +1,61 @@
+/* ----- HELLO -------------------------------------------------------------- */
+
+body {
+  align-items: center;
+  background-color: rgb(84, 37, 124);
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  height: 100vh;
+  padding: 1em 5em;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+}
+
+a {
+  color: rgba(255, 255, 255, .7);
+  transition: color .2s ease-in;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+h1, p {
+  display: inline;
+  font-size: 1.8em;
+  line-height: 1.25em;
+  text-transform: initial;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+p {
+  color: rgba(255, 255, 255, .7);
+  font-weight: 400;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+/* ----- 768 ---------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+
+  body {
+    font-size: 1.5em;
+  }
+}
+
+/* ----- 1200 --------------------------------------------------------------- */
+
+@media only screen and (min-width: 1200px) {
+
+  body {
+    font-size: 1.5em;
+    padding: 1em 14em;
+  }
+}
